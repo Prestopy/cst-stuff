@@ -28,7 +28,7 @@ Remember that code that runs for more than $10^9$ iterations is usually too slow
 3. **Identify edge cases** or bounds
 
 ## Example comprog problem
-Let's familiarize ourselves with a super simple sample comprog problem: [Alice's Cookies](Day2_alices_cookies.md).
+Let's familiarize ourselves with a super simple sample comprog problem: [Alice's Cookies](EX_AlicesCookies.md).
 
 ## How to C++
 ### Important data types *(for now)*
@@ -37,10 +37,10 @@ Let's familiarize ourselves with a super simple sample comprog problem: [Alice's
 - `long long`
 - `double`
 - `bool`
-- `string`
 
 **Non-primitive:**
 - `vector` (from `<vector>` STL header)
+- `string`
 
 ### Reading input/output
 This is **super important**!! Comprog competitions run your program multiple times, each time giving it different inputs, or test cases. Your program must **read the input** it is given, **solve the problem**, then **output the answer**.
@@ -213,7 +213,7 @@ cout << lightbulb.size(); // 4
 - [Wrong Subtraction](CF977A_WrongSubtraction.md) (CF)
 - *[Bovine Shuffle](B17_18_BovineShuffle.md) (USACO Bronze 2017)
 - *[Speeding Ticket](B15_16_SpeedingTicket.md) (USACO Bronze 2015)
-- *[Circular Barn](B15_16_CircularBarn.md)] (USACO Bronze 2015)
+- *[Circular Barn](B15_16_CircularBarn.md) (USACO Bronze 2015)
 - **[Promotion Counting](B15_16_PromotionCounting.md) (USACO Bronze 2015)
 
 \* = Encouraged to try; \*\* = Challenging

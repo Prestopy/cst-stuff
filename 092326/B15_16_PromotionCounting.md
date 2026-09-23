@@ -15,9 +15,9 @@ Difficulty: Easy
 
 Why traverse backwards? Beacuse someone who went from bronze -> platinum must have also been promoted to silver then gold. So, they must be part of the running sum for silver and gold.
 
-![Cool lil' diagram](<Screenshot 2025-10-04 at 10.52.22.png>)
+![Cool lil' diagram](B15_16_PromotionCountingTable1.png)
 
-> I realize this is a terrible editorial!! Please try to understand it.
+*(I realize this is a terrible editorial!! Please try to understand it.)*
 
 ## Code
 ```cpp
