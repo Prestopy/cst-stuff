@@ -1,9 +1,10 @@
-# CST Day 2: Simulation
+# CST Day 1: Simulation + How to C++
 **Goal:**
 1. Understand what **simulation** is
 2. Be able to **reason through simulation problems logically**
-3. Be able to **implement solutions for simple simulation problems**
-4. *(Be more confident now that you've tried real comprog questions)*
+3. Be able to **write basic C++ code**
+4. Be able to **implement solutions for simple simulation problems**
+5. *(Be more confident now that you've tried real comprog questions)*
 
 # The idea behind simulation
 Simulation problems are often described as "Do What The Problem Says". Unlike difficult problems that require advanced algorithmic knowledge, simulation problems simply test your ability to translate written rules and step-by-step processes into *bug-free* code.
