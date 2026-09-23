@@ -61,6 +61,21 @@ Remember that `cin` always has the arrows pointing **into the variables (right)*
 
 Also notice you can chain the `<<` and `>>`. So, doing `cout << "hi1" << "hi2";` is completely valid.
 
+#### Reading from files
+Only old competetive programming problems require to read your input from a file. If this is the case, you need to make `cin` read from a file instead of from the terminal:
+
+```cpp
+// bind input to file "shuffle.in"
+freopen("shuffle.in", "r", stdin);
+
+// bind output to file "shuffle.out"
+freopen("shuffle.out", "w", stdout);
+
+int N;
+cin >> N; // read input from file "shuffle.in"
+cout << "lol"; // write output to file "shuffle.out"
+```
+
 ### Doing simple math
 - `+`, `-`, `*`, `/` are plus, minus, multiply, divide.
 - `%` is modulo, or the remainder of a division.
@@ -194,4 +209,11 @@ cout << lightbulb.size(); // 4
 ```
 
 # Example problems!
-- 
+- [In Search of an Easy Problem](CF1030_InSearchOfAnEasyProblem.md) (CF)
+- [Wrong Subtraction](CF977A_WrongSubtraction.md) (CF)
+- *[Bovine Shuffle](B17_18_BovineShuffle.md) (USACO Bronze 2017)
+- *[Speeding Ticket](B15_16_SpeedingTicket.md) (USACO Bronze 2015)
+- *[Circular Barn](B15_16_CircularBarn.md)] (USACO Bronze 2015)
+- **[Promotion Counting](B15_16_PromotionCounting.md) (USACO Bronze 2015)
+
+\* = Encouraged to try; \*\* = Challenging

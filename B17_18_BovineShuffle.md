@@ -32,14 +32,20 @@ int main() {
     for (int i=0; i<N; i++) cin >> a[i];
     for (int i=0; i<N; i++) cin >> now[i];
 
+    // reverse 3 steps
     for (int i=0; i<3; i++) {
+
+        // go thru each cow
         for (int k=0; k<N; k++) {
+            // move cow at a_i to i
             after[k] = now[a[k]-1];
         }
+
         now = after;
         after = vector<int>(N);
     }
 
+    // go thru each cow in array now
     for (int s : now) {
         cout << s << "\n";
     }
