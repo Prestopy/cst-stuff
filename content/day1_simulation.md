@@ -29,7 +29,7 @@ Remember that code that runs for more than $10^9$ iterations is usually too slow
 3. **Identify edge cases** or bounds
 
 ## Example comprog problem
-Let's familiarize ourselves with a super simple sample comprog problem: [Alice's Cookies](EX_AlicesCookies.md).
+Let's familiarize ourselves with a super simple sample comprog problem: [Alice's Cookies (brilliant name ik)](../EX_AlicesCookies.md).
 
 ## How to C++
 ### Important data types *(for now)*
@@ -210,11 +210,11 @@ cout << lightbulb.size(); // 4
 ```
 
 # Example problems!
-- [In Search of an Easy Problem](CF1030_InSearchOfAnEasyProblem.md) (CF)
-- [Wrong Subtraction](CF977A_WrongSubtraction.md) (CF)
-- *[Bovine Shuffle](B17_18_BovineShuffle.md) (USACO Bronze 2017)
-- *[Speeding Ticket](B15_16_SpeedingTicket.md) (USACO Bronze 2015)
-- *[Circular Barn](B15_16_CircularBarn.md) (USACO Bronze 2015)
-- **[Promotion Counting](B15_16_PromotionCounting.md) (USACO Bronze 2015)
+- [In Search of an Easy Problem](../CF1030_InSearchOfAnEasyProblem.md) (CF)
+- [Wrong Subtraction](../CF977A_WrongSubtraction.md) (CF)
+- *[Bovine Shuffle](../B17_18_BovineShuffle.md) (USACO Bronze 2017)
+- *[Speeding Ticket](../B15_16_SpeedingTicket.md) (USACO Bronze 2015)
+- *[Circular Barn](../B15_16_CircularBarn.md) (USACO Bronze 2015)
+- **[Promotion Counting](../B15_16_PromotionCounting.md) (USACO Bronze 2015)
 
 \* = Encouraged to try; \*\* = Challenging
