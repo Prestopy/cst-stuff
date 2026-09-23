@@ -41,7 +41,7 @@ Let's familiarize ourselves with a super simple sample comprog problem: [Alice's
 
 **Non-primitive:**
 - `vector` (from `<vector>` STL header)
-- `string`
+- `string` (from `<string>` STL header)
 
 ### Reading input/output
 This is **super important**!! Comprog competitions run your program multiple times, each time giving it different inputs, or test cases. Your program must **read the input** it is given, **solve the problem**, then **output the answer**.
@@ -63,7 +63,7 @@ Remember that `cin` always has the arrows pointing **into the variables (right)*
 Also notice you can chain the `<<` and `>>`. So, doing `cout << "hi1" << "hi2";` is completely valid.
 
 #### Reading from files
-Only old competetive programming problems require to read your input from a file. If this is the case, you need to make `cin` read from a file instead of from the terminal:
+Only old competitive programming problems require you to read your input and write your output to a file. If this is the case, you need to make `cin` read from a file, and `cout` write to a file, instead of from the terminal:
 
 ```cpp
 // bind input to file "shuffle.in"
@@ -89,9 +89,11 @@ cout << "lol"; // write output to file "shuffle.out"
 > You will be given the numbers $N$ and $D$.
 
 This is a pure math problem. Notice that after $T$ days, the number of ducks that have been spawned is:
+
 $$\frac{T(1+T)}{2}$$
 
 Since we need a total of $N\cdot D$ ducks to satisfy everyone, we want to find a value of $T$ such that:
+
 $$\frac{T(1+T)}{2} \leq N\cdot D$$
 
 Solving for this gives us:
@@ -99,6 +101,7 @@ Solving for this gives us:
 $$ T\leq \sqrt{2ND+1/4} - 1/2 $$
 
 Since $T$ must be a whole number, we have:
+
 $$ T = \lceil \underbrace{\sqrt{2ND+1/4}}_{\text{coolRoot}} - 1/2 \rceil $$
 
 Now let's translate this into code:
@@ -114,9 +117,9 @@ int main() {
     cin >> N >> D; // read input for N and D
 
     double coolRoot = sqrt(2 * N * D + 0.25); // computers follow PEMDAS too
-    double answer = coolRoot - 0.5;
+    double answer = ceil(coolRoot - 0.5); // round up
 
-    cout << ceil(answer); // round up
+    cout << answer;
 }
 ```
 
@@ -174,10 +177,10 @@ Arrays are a super useful data type that store lists of values. We will generall
 vector<int> listOfInts = {1, 2, 3};
 vector<bool> listOfBools = {true, false, false, true};
 
-// push_back appends to end
+// push_back appends a value to the end
 listOfInts.push_back(10); // now listOfInts is {1, 2, 3, 10}
 
-// listOfInts[0] corresponds to FIRST element of the array "istOfInts"
+// listOfInts[0] corresponds to the FIRST element of the array "istOfInts" (arrays are 0-indexed: they start from 0)
 cout << listOfInts[0]; // 1
 cout << listOfInts[1]; // 2
 cout << listOfInts[2]; // 3
