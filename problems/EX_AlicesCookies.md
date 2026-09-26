@@ -1,4 +1,4 @@
-# Problem statement
+# Alice's Cookies
 
 Alice has a jar containing $N$ cookies. Every day, she performs a strict routine:
 1. In the morning, she eats exactly $E$ cookies from the jar.
